@@ -12,7 +12,7 @@ set -e
 cd ~/Desktop/Edge_IoT/services/
 
 	# Duplicate the services into /lib/systemd/system services folder
-#cp my_ups.service /lib/systemd/system/my_ups.service
+cp my_ups.service /lib/systemd/system/my_ups.service
 cp my_canbus.service /lib/systemd/system/my_canbus.service
 cp my_server.service /lib/systemd/system/my_server.service
 
@@ -20,6 +20,6 @@ cp my_server.service /lib/systemd/system/my_server.service
 systemctl daemon-reload
 
 	# Activate services after restart the system
-#systemctl enable my_ups.service
+systemctl enable my_ups.service
 systemctl enable my_canbus.service
 systemctl enable my_server.service
