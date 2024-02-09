@@ -14,6 +14,9 @@
     - flask_sqlalchemy
     - SQLalchemy_utils
     - python-can
+- **Firmware de la Jetson Recomputer o Nano**
+    - Jetson Nano (https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write)
+    - Jetson Recomputer (https://wiki.seeedstudio.com/reComputer_J1010_J101_Flash_Jetpack/ ) en la versión de 32.7.4 Jun 2023  
     
 ## Description
 Este repositorio contiene los programas y archivos requeridos para usar el EDGE AIoTBox para
